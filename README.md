@@ -46,8 +46,6 @@ python setup.py install
 cd ..  # it is necessary to leave the installation folder
 ```
 
-**Note:** I recomend install packages inside your favorite enviroment python
-
 
 - Or also, cloning the github package  (I recommend make it inside your favorite environment python):
 ```
