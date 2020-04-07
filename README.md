@@ -28,9 +28,40 @@ See the next jupyter notebook examples.
 You can install metlib on Python 2 or 3 on Linux, Windows or other, using the following commands.
 \
 \
-From PYPI using pip:
+**From github**
+
+- Download ZIP (**metlib-master.zip**) and following the next commands.
 ```
-pip install metlib
+# Recommended method
+unzip metlib-master.zip
+cd metlib-master
+pip install .
+cd ..
+```
+or
+```
+unzip metlib-master.zip
+cd metlib-master
+python setup.py install
+cd ..
+```
+
+
+
+- Or also, cloning the github package.
+```
+clone https://github.com/joaohenry23/metlib.git
+cd metlib
+python setup.py install
+cd ..
+```
+\
+\
+**Check if package was installed**
+
+Open python version or the python environment where was installed the package and write:
+```
+import metlib
 ```
 
 
