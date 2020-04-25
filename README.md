@@ -296,44 +296,50 @@ Click on the item to see the function and their description.
 <br><br>
 
 # Installation
-You can install metlib on Python 2 or 3 on Linux, Windows or other, using the following commands.
-\
-\
+You can install metlib on Python 2 or 3 on Linux, Windows or other using the following commands (I recommend doing it within your favorite Python environment).
+<br>
+
+**From PYPI using pip (recommended method)**
+
+```
+pip install metlib
+```
+<br>
+
 **From github**
 
-- Download ZIP (**metlib-master.zip**) and following commands (I recommend make it inside your favorite environment python):
-```
-# Recommended method
-unzip metlib-master.zip
-cd metlib-master
-pip install .
-cd ..  # it is necessary to leave the installation folder
-```
-or
+- Download ZIP (**metlib-master.zip**) and following commands:
 ```
 unzip metlib-master.zip
 cd metlib-master
 python setup.py install
 cd ..  # it is necessary to leave the installation folder
 ```
+<br>
 
-
-- Or also, cloning the github package  (I recommend make it inside your favorite environment python):
+- or also, cloning the github package:
 ```
 clone https://github.com/joaohenry23/metlib.git
 cd metlib
 python setup.py install
 cd ..  # it is necessary to leave the installation folder
 ```
-\
-\
+<br>
+
 **Check if package was installed**
 
-Open python version or the python environment where was installed the package and write:
 ```
-import metlib
+pip show metlib
 ```
-<br><br>
+<br>
+
+**Update to the latest version**
+
+```
+pip install --upgrade metlib
+```
+<br>
+<br>
 
 # Support
 If you have any questions, do not hesitate to write to:
