@@ -31,7 +31,6 @@ Click on the item to see the function and their description.
 **cdiff**(Field, Dim)
 ```
    Calculates a centered finite difference of Numpy array or Xarray.DataArray.
-   The function use a fortran subroutine to perform a quick calculation.
 
 
    Parameters
