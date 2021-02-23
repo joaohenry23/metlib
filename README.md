@@ -2,6 +2,10 @@
 Python package to performs meteorological calculations
 <br><br>
 
+# Version
+0.0.1.2
+<br><br>
+
 # Requirements
 - [numpy](https://numpy.org/)
 - [xarray](http://xarray.pydata.org/en/stable/)
